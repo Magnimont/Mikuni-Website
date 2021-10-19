@@ -1,0 +1,14 @@
+.commands {
+  border-radius: 0.625rem;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(54, 54, 54, 0.8);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(54, 54, 54, 0.8);
+  box-shadow: 10px 10px 5px 0px rgba(54, 54, 54, 0.8);
+}
+
+.img-res-show {
+  display: none;
+}
+
+.w-full {
+  width: 100%;
+}

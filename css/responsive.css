@@ -1,0 +1,29 @@
+@media only screen and (max-width: 1440px) {
+  .commands {
+    margin-top: 1.25rem;
+    margin-left: 0.3125rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .img-res {
+    display: none;
+  }
+
+  .img-res-show {
+    display: block;
+  }
+
+  .container-res {
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .container-res img {
+    margin-top: 3.125rem;
+  }
+
+  body {
+    padding: 1.875rem;
+  }
+}

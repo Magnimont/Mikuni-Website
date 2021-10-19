@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>EpicBot</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/responsive.css" />
+  </head>
+  <body class="has-background-black">
+    <section class="hero is-black is-fullheight">
+      <div class="hero-head">
+        <header class="navbar mt-4">
+          <div class="container">
+            <div class="navbar-brand">
+              <img src="./assets/logo.png" width="70" height="70" alt="Logo" />
+              <span
+                id="openMenu"
+                class="navbar-burger burger"
+                data-target="navbarMenuHeroC"
+              >
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+            <div
+              id="navbarMenuHeroC"
+              class="navbar-menu"
+              data-aos="fade-down"
+              data-aos-duration="2000"
+            >
+              <div class="navbar-end">
+                <a class="navbar-item">Home</a>
+                <a class="navbar-item">Documentation</a>
+                <a class="navbar-item">Support server</a>
+                <a class="navbar-item is-active">Premium</a>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+      <div class="hero-body">
+        <div
+          class="container has-text-left is-flex is-align-items-center is-flex-wrap-wrap is-justify-content-space-between container-res"
+        >
+          <div>
+            <h1 class="title">EpicBot</h1>
+            <h2 class="subtitle">A simple, multipurpose Discord bot.</h2>
+            <button class="button is-warning mr-2">Invite</button>
+            <button class="button is-dark">Support Server</button>
+          </div>
+          <img src="./assets/logo.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <div
+      class="container has-text-left is-flex is-align-items-center is-flex-wrap-wrap is-justify-content-space-between has-text-white py-6"
+      data-aos="fade-up"
+    >
+      <div class="margin-res">
+        <h1 class="is-size-1 has-text-weight-bold is-family-monospace">
+          Utility
+        </h1>
+        <ul>
+          <li>
+            <b>Announce</b>
+            This will make an announcement in the desired channel.
+          </li>
+          <li>
+            <b>Giveaway</b>
+            This will start a giveaway in the desired channel.
+          </li>
+          <li>
+            <b>Translate</b>
+            This will translate the text to the desired language.
+          </li>
+          <li>
+            <b>Poll</b>
+            This will start a poll.
+          </li>
+          <li>
+            <b>Countdown</b>
+            This will start a countdown for you.
+          </li>
+          <li>
+            <b>Create Invite</b>
+            This will create a permanent invite link for the server.
+          </li>
+        </ul>
+      </div>
+      <img
+        class="commands"
+        src="./assets/commands/utility.png"
+        alt="EpicBot - Command utility"
+      />
+    </div>
+
+    <div
+      class="container has-text-left is-flex is-align-items-center is-flex-wrap-wrap is-justify-content-space-between has-text-white py-6"
+      data-aos="fade-up"
+    >
+      <img
+        class="commands img-res"
+        src="./assets/commands/moderation.png"
+        alt="EpicBot - Command utility"
+      />
+      <div class="margin-res">
+        <h1 class="is-size-1 has-text-weight-bold is-family-monospace">
+          Moderation
+        </h1>
+        <ul>
+          <li>
+            <b>Clear</b>
+            This will delete the amount of messages.
+          </li>
+          <li>
+            <b>Kick</b>
+            This will kick the user from the server.
+          </li>
+          <li>
+            <b>Ban</b>
+            This will ban the user from the server.
+          </li>
+          <li>
+            <b>Unban</b>
+            This will unban the user from the server.
+          </li>
+          <li>
+            <b>Warn</b>
+            This will warn the user.
+          </li>
+          <li>
+            <b>Create Channel</b>
+            This will create a text-channel with the name mentioned.
+          </li>
+          <li>
+            <b>Delete Channel</b>
+            This will delete the text-channel mentioned.
+          </li>
+          <li>
+            <b>Add Role</b>
+            This will add the role mentioned to the user.
+          </li>
+          <li>
+            <b>Remove Role</b>
+            This will remove the role mentioned from the user.
+          </li>
+        </ul>
+      </div>
+      <img
+        class="commands img-res-show"
+        src="./assets/commands/moderation.png"
+        alt="EpicBot - Command utility"
+      />
+    </div>
+
+    <div
+      class="container has-text-left is-flex is-align-items-center is-flex-wrap-wrap is-justify-content-space-between has-text-white py-6"
+      data-aos="fade-up"
+    >
+      <div class="margin-res">
+        <h1 class="is-size-1 has-text-weight-bold is-family-monospace">Fun</h1>
+        <ul>
+          <li>
+            <b>Hack</b>
+            This will hack the user(not real hack).
+          </li>
+          <li>
+            <b>OWO</b>
+            This will convert your text and make it look adorable.
+          </li>
+          <li>
+            <b>Meme</b>
+            will show some memes.
+          </li>
+          <li>
+            <b>Say</b>
+            The bot repeat the
+          </li>
+          <li>
+            <b>Predict</b>
+            The bot will predict the answer to your question.
+          </li>
+          <li>
+            <b>Dice</b>
+            The bot will roll a dice for you.
+          </li>
+          <li>
+            <b>Coin Flip</b>
+            The bot will flip a coin for you.
+          </li>
+          <li>
+            <b>Random Number</b>
+            This will pick a random number between those 2 numbers for you.
+          </li>
+        </ul>
+      </div>
+      <img
+        class="commands"
+        src="./assets/commands/fun.png"
+        alt="EpicBot - Command utility"
+      />
+    </div>
+
+    <div
+      class="container has-text-left is-flex is-align-items-center is-flex-wrap-wrap is-justify-content-space-between has-text-white py-6"
+      data-aos="fade-up"
+    >
+      <img
+        class="commands img-res"
+        src="./assets/commands/image.png"
+        alt="EpicBot - Command utility"
+      />
+      <div class="margin-res">
+        <h1 class="is-size-1 has-text-weight-bold is-family-monospace">
+          Image
+        </h1>
+        <ul>
+          <li>
+            <b>Cat</b>
+            Some cat images.
+          </li>
+          <li>
+            <b>Dog</b>
+            Some dog images.
+          </li>
+          <li>
+            <b>Burn</b>
+            Spongebob burnt that user. F.
+          </li>
+          <li>
+            <b>Trash</b>
+            The lady in the picture thinks that the user is trash.
+          </li>
+          <li>
+            <b>Angry</b>
+            The user just made this guy angry.
+          </li>
+          <li>
+            <b>Fact</b>
+            The is a fact, atleast that's what the image shows.
+          </li>
+          <li>
+            <b>Illness</b>
+            The is a illness, according to the image.
+          </li>
+          <li>
+            <b>Shock</b>
+            shocked this guy.
+          </li>
+          <li>
+            <b>Wanted</b>
+            The user is wanted, so the image is letting everyone know.
+          </li>
+          <li>
+            <b>Hug</b>
+            A strong hug a day is always good.
+          </li>
+          <li>
+            <b>Anime</b>
+            Anime pics.
+          </li>
+        </ul>
+      </div>
+      <img
+        class="commands img-res-show"
+        src="./assets/commands/image.png"
+        alt="EpicBot - Command utility"
+      />
+    </div>
+
+    <div
+      class="container has-text-left is-flex is-align-items-center is-flex-wrap-wrap is-justify-content-space-between has-text-white py-6"
+      data-aos="fade-up"
+    >
+      <div class="margin-res">
+        <h1 class="is-size-1 has-text-weight-bold is-family-monospace">Bot</h1>
+        <ul>
+          <li>
+            <b>Prefix</b>
+            It will change the bots prefix for the server.
+          </li>
+          <li>
+            <b>Invite</b>
+            This will send you a link with which you can invite EpicBot to your
+            own server.
+          </li>
+          <li>
+            <b>Discord</b>
+            This will send you a link with which you can join out Discord
+            server.
+          </li>
+          <li>
+            <b>BotInfo</b>
+            It will show the info about the EpicBot.
+          </li>
+          <li>
+            <b>Bug Report</b>
+            It will give you a link with which you can report a bug.
+          </li>
+        </ul>
+      </div>
+      <img
+        class="commands"
+        src="./assets/commands/bot.png"
+        alt="EpicBot - Command utility"
+      />
+    </div>
+
+    <div
+      class="container has-text-left is-flex is-align-items-center is-flex-wrap-wrap is-justify-content-space-between has-text-white py-6"
+      data-aos="fade-up"
+    >
+      <img
+        class="commands img-res"
+        src="./assets/commands/info.png"
+        alt="EpicBot - Command utility"
+      />
+      <div class="margin-res">
+        <h1 class="is-size-1 has-text-weight-bold is-family-monospace">Info</h1>
+        <ul>
+          <li>
+            <b>Covid-19</b>
+            Gets covid-19 stats for your country.
+          </li>
+          <li>
+            <b>UserInfo</b>
+            Gets info about the user.
+          </li>
+          <li>
+            <b>ServerInfo</b>
+            Gets info about the server. "Manage Server" permissions will be
+            needed.
+          </li>
+          <li>
+            <b>Avatar</b>
+            Gets the avatar of the user.
+          </li>
+        </ul>
+      </div>
+      <img
+        class="commands img-res-show"
+        src="./assets/commands/info.png"
+        alt="EpicBot - Command utility"
+      />
+    </div>
+
+    <div
+      class="container has-text-left is-flex is-align-items-center is-justify-content-space-between is-flex-direction-column has-text-white py-6"
+      data-aos="fade-up"
+    >
+      <h1 class="title is-1 has-text-white">Stats</h1>
+      <div class="tile is-ancestor w-full">
+        <div class="tile is-parent">
+          <article class="tile is-child box has-background-black-ter">
+            <p class="title has-text-white">Users</p>
+            <p class="subtitle has-text-warning">0</p>
+          </article>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child box has-background-black-ter">
+            <p class="title has-text-white">Guilds</p>
+            <p class="subtitle has-text-warning">0</p>
+          </article>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child box has-background-black-ter">
+            <p class="title has-text-white">Commands</p>
+            <p class="subtitle has-text-warning">0</p>
+          </article>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child box has-background-black-ter">
+            <p class="title has-text-white">Other</p>
+            <p class="subtitle has-text-warning">0</p>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer has-background-black-ter has-text-white">
+      <div class="content has-text-centered">
+        <p>
+          EpicBot, created by
+          <strong class="has-text-white">Nirlep_5252_ #0001</strong>
+        </p>
+        <button class="button is-warning">Discord server</button>
+      </div>
+    </footer>
+
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./js/menu.js"></script>
+  </body>
+</html>
