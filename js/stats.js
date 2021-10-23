@@ -1,5 +1,5 @@
 function fetchData() {
-	fetch('https://api.statcord.com/v3/849876520403075092').then(response => {
+	fetch('https://api.statcord.com/v3/900959366646226974').then(response => {
 		return response.json();
 	}).then(data => {
 		console.log(data.data[0].servers);
@@ -9,7 +9,7 @@ function fetchData() {
 	}).catch(error => {
 		console.log(error);
 	});
-	fetch('https://api.statcord.com/v3/849876520403075092/aggregate').then(response => {
+	fetch('https://api.statcord.com/v3/900959366646226974/aggregate').then(response => {
 		return response.json();
 	}).then(data => {
 		document.querySelector('#cmd-count').innerHTML = `<p>${data.data.totalCommands}+</p>`
