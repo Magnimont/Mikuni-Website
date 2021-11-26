@@ -1,0 +1,40 @@
+.btn {
+  display: inline-block;
+  padding: 1.2em 6em;
+  cursor: pointer;
+  border: none;
+  border-radius: 3rem;
+  color: var(--clr-neutral-100);
+  font-weight: var(--fw-700);
+  background: var(--cta-gradient);
+  //   transition: background 750ms ease-in-out;
+
+  &:hover,
+  &:focus {
+    background: var(--clr-accent-300);
+  }
+}
+
+.btn-accent {
+  font-size: 0.75rem;
+  color: var(--clr-accent-300);
+  padding-bottom: 0.4em;
+  border-bottom: 2px solid var(--clr-accent-300);
+
+  svg {
+    display: inline-block;
+    margin-left: .5em;
+    vertical-align: middle;
+  } 
+
+  &:hover use,
+  &:focus use {
+    fill: var(--clr-neutral-100);
+  }
+  
+  &:hover,
+  &:focus {
+    color: var(--clr-neutral-100);
+    border-color: currentColor;
+  }
+}

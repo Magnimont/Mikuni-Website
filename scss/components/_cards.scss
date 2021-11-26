@@ -1,0 +1,16 @@
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8em;
+
+    @media(min-width: 45em) {
+        grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    }
+}
+
+.about-card {
+    img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

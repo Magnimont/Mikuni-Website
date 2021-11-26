@@ -1,0 +1,55 @@
+section {
+  padding: 3rem 0;
+
+  @media (min-width: 45em) {
+    padding: 5rem 0;
+  }
+}
+
+.primary-header {
+  --max-width: 95rem;
+  padding: 1.5rem 0;
+  background-color: var(--clr-primary-300);
+
+  @media (min-width: 45em) {
+    padding: 4.5rem;
+  }
+}
+
+.hero {
+  --flow-spacer: 2em;
+  --max-width: 46rem;
+  background-color: var(--clr-primary-300);
+  background-image: url("/images/bg-curvy-mobile.svg");
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 0;
+
+  @media (min-width: 45em) {
+    background-image: url("/images/bg-curvy-desktop.svg");
+
+    p {
+      font-size: 1.4rem;
+    }
+  }
+}
+
+.about {
+  --max-width: 55rem;
+}
+
+.productive {
+  --max-width: 76rem;
+}
+
+.testimonials {
+  --max-width: 76rem;
+  padding: 8rem 0 0 0;
+}
+
+.primary-footer {
+  --max-width: 76rem;
+  background-color: var(--clr-primary-500);
+  padding: 16rem 0 3rem 0;
+}

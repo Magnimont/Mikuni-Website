@@ -1,0 +1,22 @@
+{
+  "name": "fylo-dark-theme-landing-page-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Fylo dark theme landing page challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "watch-sass": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DylanGangat/Fylo-dark-theme-landing-page.git"
+  },
+  "author": "Dylan Gangat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DylanGangat/Fylo-dark-theme-landing-page/issues"
+  },
+  "homepage": "https://github.com/DylanGangat/Fylo-dark-theme-landing-page#readme",
+  "devDependencies": {
+    "sass": "^1.32.8"
+  }
+}

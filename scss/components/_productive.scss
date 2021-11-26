@@ -1,0 +1,23 @@
+.productive {
+  .info {
+    display: grid;
+    gap: 4em;
+
+    @media (min-width: 62.5em) {
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+    }
+  }
+
+  figure {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (min-width: 45em) {
+    h3 {
+      font-size: var(--fs-700);
+      max-width: 15ch;
+    }
+  }
+}
