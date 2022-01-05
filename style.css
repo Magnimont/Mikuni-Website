@@ -9,7 +9,7 @@
   text-decoration: none;
 }
 *::selection {
-  color: aqua;
+  color: #22b4b7;
 }
 html {
   scroll-behavior: smooth;
@@ -26,7 +26,7 @@ html {
 }
 ::-webkit-scrollbar-thumb {
   border-radius: 20px;
-  background: aqua;
+  background: #22b4b7;
   box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.25), inset -2px -2px -2px rgba(0,0,0,0.25);
 }
 
@@ -40,7 +40,7 @@ html {
 }
 .navbar.sticky {
   padding: 15px 0;
-  background: aqua;
+  background: #22b4b7;
 }
 .navbar .max-width {
   display: flex;
@@ -53,7 +53,7 @@ html {
   font-weight: 600;
 }
 .navbar .logo a span {
-  color: aqua;
+  color: #22b4b7;
   transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span {
@@ -72,7 +72,7 @@ html {
   transition: color 0.3s ease;
 }
 .navbar .menu li a:hover {
-  color: aqua;
+  color: #22b4b7;
 }
 .navbar.sticky .menu li a:hover {
   color: #fff;
@@ -88,7 +88,7 @@ html {
   position: fixed;
   height: 45px;
   width: 42px;
-  background: aqua;
+  background: #22b4b7;
   right: 30px;
   bottom: 10px;
   text-align: center;
@@ -139,24 +139,24 @@ html {
   margin: 5px 0;
 }
 .home .home-content .text-3 span {
-  color: aqua;
+  color: #22b4b7;
   font-weight: 500;
 }
 .this-is-pain {
   position: absolute;
   display: inline-block;
-  background: aqua;
+  background: #22b4b7;
   color: #fff;
   font-size: 25px;
   padding: 12px 36px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 2px solid aqua;
+  border: 2px solid #22b4b7;
   transition: all 0.3s ease;
 }
 .this-is-pain:hover {
   background: none;
-  color: aqua;
+  color: #22b4b7;
 }
 
 section {
@@ -186,7 +186,7 @@ section .title::after {
   bottom: -12px;
   left: 50%;
   font-size: 20px;
-  color: aqua;
+  color: #22b4b7;
   padding: 5px;
   background: #fff;
   transform: translateX(-50%);
@@ -224,7 +224,7 @@ section .title::after {
   margin-bottom: 20px;
 }
 .card:hover {
-  background: aqua;
+  background: #22b4b7;
 }
 .card:hover i {
   color: #fff;
@@ -237,7 +237,7 @@ section .title::after {
 }
 .card i {
   font-size: 50px;
-  color: aqua;
+  color: #22b4b7;
   transition: color 0.3s ease;
 }
 .card .text {
@@ -272,7 +272,7 @@ section .title::after {
   transition: all 0.3s ease;
 }
 .contributors .carousel .cardd:hover {
-  background: crimson;
+  background: #22b4b7;
 }
 .contributors .carousel .cardd .boxx {
   display: flex;
@@ -295,7 +295,7 @@ section .title::after {
   width: 150px;
   object-fit: cover;
   border-radius: 50%;
-  border: 5px solid crimson;
+  border: 5px solid #22b4b7;
   transition: all 0.3s ease;
 }
 .contributors .carousel .cardd:hover img {
@@ -308,7 +308,7 @@ section .title::after {
   font-family: 'Poppins', sans-serif;
 }
 .badges.owner {
-  background: crimson;
+  background: #22b4b7;
 }
 .badges.developer {
   background: orange;
@@ -334,7 +334,7 @@ section .title::after {
   margin: 0 5px;
   outline: none!important;
   border-radius: 50%;
-  border: 2px solid crimson!important;
+  border: 2px solid #22b4b7!important;
   transition: all 0.3s ease;
 }
 .owl-dot.active {
@@ -343,7 +343,7 @@ section .title::after {
 }
 .owl-dot.active,
 .owl-dot:hover {
-  background: crimson!important;
+  background: #22b4b7!important;
 }
 
 footer {
@@ -354,7 +354,7 @@ footer {
   text-align: center;
 }
 footer span a {
-  color: crimson;
+  color: #22b4b7;
   text-decoration: none;
 }
 footer span a:hover {
@@ -481,7 +481,7 @@ footer span a:hover {
   position: absolute;
   height: 4px;
   width: 20%;
-  background: crimson;
+  background: #22b4b7;
 }
 .longfazers span:nth-child(1) {
   top: 20%;

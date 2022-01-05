@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EpicBot</title>
+    <link rel="stylesheet" href="../../website/premium/style.css">
+		<link rel="icon" href="../images/logo.png">
+    <script src="../../a076d05399.js"></script>
+    <script src="../../jquery-3.6.0.min.js"></script>
+    <script src="../../ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="../../ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="../../ajax/libs/typed_js/2.0.11/typed.min.js"></script>
+    <link rel="stylesheet" href="../../ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" href="./aos/aos.css">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Hiro ✨">
+    <meta property="og:description" content="A simple, multipurpose Discord bot.">
+    <meta property="og:image" >
+    <meta name="theme-color" content="#00FFFF">
+</head>
+<body>
+    <section>
+      <img src="../../website/premium/images/1.png" data-speed="-5" class="layer">
+      <img src="../../website/premium/images/2.png" data-speed="5" class="layer">
+      <img src="../../website/premium/images/3.png" data-speed="2" class="layer">
+      <img src="../../website/premium/images/4.png" data-speed="6" class="layer">
+      <img src="../../website/premium/images/8.png" data-speed="-9" class="layer">
+      <img src="../../website/premium/images/5.png" data-speed="8" class="layer">
+      <img src="../../website/premium/images/6.png" data-speed="-2" class="layer">
+      <img src="../../website/premium/images/7.png" data-speed="4" class="layer">
+      <img src="../../website/premium/images/9.png" data-speed="6" class="layer">
+      <img src="../../website/premium/images/10.png" data-speed="-7" class="layer">
+      <img src="../../website/premium/images/11.png" data-speed="-5" class="layer">
+      <img src="../../website/premium/images/12.png" data-speed="5" class="layer">
+      <h2 class="layer" data-speed="2">Everything is <span>Free</span></h2>
+    </section>
+    <div class="loader-wrapper">
+      <img src="../../emojis/800605718444376075.gif" alt="Loading...">
+      <div class="longfazers">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+    </div>
+    <a style="display: none;" href="http://www.dmca.com/Protection/Status.aspx?ID=04da08e3-40f5-4320-8093-86b1c519bf13" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="../../Badges/dmca-badge-w150-5x1-07.png"  alt="DMCA.com Protection Status" /></a>  <script src="../../Badges/DMCABadgeHelper.min.js"> </script>
+    <a style="display: none;" href="https://www.dmca.com/compliance/epicbot.gq" title="DMCA Compliance information for epicbot.gq"><img src="../../img/dmca-compliant-grayscale.png" /></a>
+    <script src="./aos/aos.js"></script>
+    <script type="text/javascript">
+        AOS.init({
+            duration: 1000,
+        });
+    </script>
+    <script src="../../website/premium/script.js"></script>
+    <script>
+        $(window).on("load", function() {
+            $(".loader-wrapper").fadeOut("slow")
+        })
+    </script>
+    <script>
+      document.addEventListener("mousemove", parallax);
+      function parallax(e) {
+        this.querySelectorAll('.layer').forEach(layer => {
+          const speed = layer.getAttribute('data-speed')
+          const x = (window.innerWidth - e.pageX*speed)/100
+          const y = (window.innerHeight - e.pageY*speed)/100
+          layer.style.transform = `translateX(${x}px) translateY(${y}px)`
+        })
+      }
+    </script>
+</body>
+</html>
