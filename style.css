@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
-/* vote epicbot and stop looking at the code kthxbai */
+/* vote Mikuni and stop looking at the code kthxbai */
 
 * {
   margin: 0;
@@ -252,7 +252,7 @@ section .title::after {
   background: #fff;
 }
 .stats .title::after {
-  content: "thank you <3";
+  content: "thank you ";
 }
 .stats p {
   color: #fff;
@@ -318,6 +318,9 @@ section .title::after {
 .badges.supporter {
   background: #ff1476;
   color: #121212;
+}
+.badges.designer {
+  background: #315dd4;
 }
 .badges.helper {
   background: #7289DA;

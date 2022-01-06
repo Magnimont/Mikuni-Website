@@ -27,7 +27,7 @@ $(document).ready(function() {
       "powerful",
       "easy to use",
       "cute",
-      "UwU",
+      "your Waifu",
       "made with love",
       "Hot",
       "well developed",
@@ -39,7 +39,7 @@ $(document).ready(function() {
   })
 
   // this is really cool
-  // but you should vote epicbot first
+  // but you should vote Mikuni first
 
   $('.carousel').owlCarousel({
     margin: 20,
